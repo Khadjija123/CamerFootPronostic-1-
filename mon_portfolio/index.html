@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathanael Tchoupou - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #121212;
+      color: #fff;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #bbb;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 100px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #333;
+    }
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      color: #aaa;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #f5c518;
+    }
+    .skills span {
+      display: inline-block;
+      background-color: #222;
+      margin: 5px;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    .projects img {
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 15px;
+    }
+    .contact a {
+      display: block;
+      color: #1e90ff;
+      text-decoration: none;
+      margin: 5px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      font-size: 14px;
+      color: #666;
+    }
+     .project-item h3 {
+  background-color: #1f1f1f;
+  padding: 10px;
+  cursor: pointer;
+  border-left: 4px solid #f5c518;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+.project-item h3:hover {
+  background-color: #292929;
+}
+.project-details {
+  display: none;
+  padding: 15px;
+  background-color: #1a1a1a;
+  border-left: 2px solid #f5c518;
+  margin-bottom: 10px;
+}
+.project-details img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+  </style>
+   
+</head>
+<body>
+  <header>
+    <h2>Nathanael Tchoupou</h2>
+    <nav>
+      <a href="#about">A propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="WhatsApp%20Image%202025-07-02%20%C3%A0%2003.52.44_fbd2141d.jpg" alt="Nathanael Tchoupou" />
+    <h1>Analyste Données | IA | Développeur Web</h1>
+    <p>Passionné par la donnée et l'intelligence artificielle, avec des compétences solides en Python, SQL, Web et Wordpress.</p>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">A propos</h2>
+    <p>Je suis Doungmo Tchoupou Nathanael, passionné par l'analyse des données, l'intelligence artificielle et le développement web. Fort d'une expérience dans la création d'interfaces graphiques en Python et la gestion de base de données avec MySQL et PostgreSQL, je conçois des outils intelligents et utiles.</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Compétences</h2>
+    <div class="skills">
+      <span>🐍 Python</span>
+      <span>📊 Data Analysis</span>
+      <span>🧠 IA</span>
+      <span>🖥️ Tkinter</span>
+      <span>🛢️ MySQL</span>
+      <span>🐘 PostgreSQL</span>
+      <span>🌐 Wordpress</span>
+      <span>💡 Machine Learning</span>
+    </div>
+ <section id="projects">
+  <h2 class="section-title">Projets</h2>
+  <div class="projects">
+
+    <div class="project-item">
+      <h3 onclick="toggleDetails(this)">🔍 Analyse & Prédiction MTN Elite One</h3>
+      <div class="project-details">
+        <p>Application développée avec Python (Tkinter), analyse statistique, Machine Learning et MySQL.</p>
+        <img src="images/architecture.png" alt="Architecture du projet">
+        <img src="images/stats.png" alt="Statistiques" />
+        <img src="images/predit.png" alt="Prédictions" />
+        <img src="images/class.png" alt="classement" />
+        <img src="images/joueurs.png" alt="statistique des joueurs" />
+      </div>
+    </div>
+
+    <div class="project-item">
+      <h3 onclick="toggleDetails(this)">🛒 Site e-commerce d’appareils électroniques</h3>
+      <div class="project-details">
+        <p>Site WordPress moderne pour la vente d'appareils électroniques et d'engins lourds. Intégration WooCommerce, fiches produits, gestion des paiements.</p>
+        <!-- Ajoute ici une capture si tu veux -->
+      </div>
+    </div>
+
+    <div class="project-item">
+      <h3 onclick="toggleDetails(this)">🏥 Application de gestion hospitalière</h3>
+      <div class="project-details">
+        <p>Développée pour gérer les consultations, les patients, les statistiques hospitalières et les fichiers médicaux.</p>
+        <!-- Ajoute ici une capture si tu veux -->
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact">
+      <a>+237 659 232 371</a>
+      <a href="mailto:nathanaeltchoupou0@gmail.com">📧 nathanaeltchoupou0@gmail.com</a>
+      <a href="https://linkedin.com/in/nathanael-doungmo-tchoupou-138403327" target="_blank">🔗 Mon LinkedIn</a>
+    </div>
+  </section>
+  <script>
+  function toggleDetails(element) {
+    const details = element.nextElementSibling;
+    details.style.display = (details.style.display === 'block') ? 'none' : 'block';
+  }
+</script>
+
+
+  <footer>
+    &copy; 2025 Nathanael Tchoupou. Tous droits réservés.
+  </footer>
+</body>
+</html>
