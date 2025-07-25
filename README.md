@@ -4,7 +4,6 @@
   
 🎓 *Étudiants au Département de Génie Informatique - IUT de Douala*
 
----
 
 ## 🌟 Points Forts de l'Application
 
@@ -33,7 +32,6 @@
 - **Mode Prédiction** : Fichiers CSV pour l'intelligence artificielle
 - **Fonctionnement autonome** même sans base de données
 
----
 
 ## 🚀 Installation et Lancement
 
@@ -80,7 +78,6 @@ Les scripts de démarrage incluent maintenant une **logique d'auto-installation*
 
 **Plus besoin de s'inquiéter des dépendances !** 🎉
 
----
 
 ## 🎮 Fonctionnalités Détaillées
 
@@ -112,7 +109,6 @@ Les scripts de démarrage incluent maintenant une **logique d'auto-installation*
 - ✅ Taux de victoire/nul/défaite
 - ✅ Graphiques de tendances
 
----
 
 ## 🗄️ Configuration de la Base de Données
 
@@ -147,7 +143,6 @@ sudo dnf install mysql-server
    - Password: `` (vide par défaut)
    - Database: `mtneliteone`
 
----
 
 ## 📁 Structure du Projet
 
@@ -172,7 +167,6 @@ MTN-Elite-One-App/
 └── 📖 README.md                 # Ce fichier
 ```
 
----
 
 ## 🛠️ Technologies Utilisées
 
@@ -187,7 +181,6 @@ MTN-Elite-One-App/
 | **Matplotlib** | Graphiques | Latest |
 | **PyInstaller** | Compilation exe | Latest |
 
----
 
 ## 🎯 Modes de Fonctionnement
 
@@ -203,7 +196,6 @@ MTN-Elite-One-App/
 - ✅ **Intelligence artificielle**
 - ✅ **Prédictions de matchs**
 
----
 
 ## 🏆 Équipes Supportées
 
@@ -216,7 +208,6 @@ L'application couvre les **16 équipes** du championnat MTN Elite One :
 | Fauve Azur Elite | Fortuna Mfou | Gazelle | Panthère |
 | Stade Renard | Union Douala | Victoria United | YOSA |
 
----
 
 ## ⚠️ Résolution de Problèmes
 
@@ -251,7 +242,6 @@ install_dependencies.bat   # Windows
 - ✅ Vérifiez le dossier `donnees/`
 - ✅ 16 fichiers CSV requis pour la prédiction
 
----
 
 ## 🎨 Captures d'Écran
 
@@ -269,7 +259,6 @@ install_dependencies.bat   # Windows
 - 📊 **Résultats détaillés** avec précision
 - 📈 **Graphiques de régression**
 
----
 
 ## 🔮 Algorithmes de Prédiction
 
@@ -285,7 +274,6 @@ install_dependencies.bat   # Windows
 - **Calcul différentiel** pour le score final
 - **Bornes réalistes** (scores ≥ 0)
 
----
 
 ## 📞 Support et Contact
 
@@ -299,7 +287,6 @@ install_dependencies.bat   # Windows
 3. 🔧 Vérifiez les prérequis système
 4. 📧 Contactez le développeur
 
----
 
 ## 📜 Licence et Utilisation
 
@@ -307,6 +294,8 @@ Cette application a été développée dans un cadre académique pour démontrer
 
 **Utilisation libre** pour l'éducation et la recherche.
 
----
 
 *Fait avec ❤️ pour le football camerounais* ⚽🇨🇲
+=======
+# CamerFootPronostic-1-
+pronostic de football des joueurs de MTN ELITE ONE
