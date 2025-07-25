@@ -5,7 +5,9 @@ import os
 
 # Chemin vers le dossier contenant les scripts
 SCRIPT_PATH = r"C:\Users\natha\Desktop\sout projet\Prediction"
+# SCRIPT_PATH = r"C:\Users\HP ELITE BOOK\Desktop\CamerFootPronostic\Prediction"
 
+SCRIPT_PATH = r"C:\Users\HP ELITE BOOK\Desktop\CamerFootPronostic\CamerFootPronostic"
 class MTNEliteOneApp:
     def __init__(self, root):
         self.root = root
